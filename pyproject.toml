@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dbt-test-env"
+version = "0.1.0"
+description = ""
+authors = ["Wentao He <wentaohe@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dbt-snowflake = "^0.21.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
